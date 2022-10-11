@@ -1,11 +1,12 @@
+// 17609 골드5 회문
+
 import java.io.*;
 
 public class Main {
     static char[] chars;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T;
-        T = Integer.parseInt(br.readLine());
+        int T = Integer.parseInt(br.readLine());
 
         for (int t = 0; t < T; t++) {
             String word = br.readLine();
